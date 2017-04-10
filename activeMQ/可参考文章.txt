@@ -1,0 +1,7 @@
+activeMq 集群 分布：
+
+http://blog.csdn.net/liuyifeng1920/article/details/50233067  ActiveMQ基于zookeeper+leveldb主从配置
+http://www.cnblogs.com/yjmyzz/p/activemq-ha-using-networks-of-brokers.html  基于Networks of Brokers的HA方案
+
+教程：
+http://blog.csdn.net/lovelong8808/article/details/52235132  == activeMQ实例在项目中的运用【项目实战系列】
