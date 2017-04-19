@@ -1,0 +1,25 @@
+/bin/bash^M: bad interpreter: 没有那个文件或目录
+
+运行脚本时出现了这样一个错误，打开之后并没有找到所谓的^M，查了之后才知道原来是文件格式的问题，也就是Linux和windows之间的不完全兼容。。。
+具体细节不管，如果验证：
+
+vm test.sh
+:set ff?
+如果出现fileforma＝dos那么就基本可以确定是这个问题了。
+:set ff=unix
+:wq!
+--------------------------------------
+
+脚本一：
+startTest.sh内容如下：
+
+#!/bin/sh
+Java -jar Test.jar &       #注意：必须有&让其后台执行，否则没有pid生成
+echo $! > /var/run/Test.pid   # 将jar包启动对应的pid写入文件中，为停止时提供pid
+
+
+stopTest.sh内容如下：
+
+#!/bin/sh
+PID=$(cat /var/run/Test.pid)
+kill -9 $PID
