@@ -1,0 +1,5 @@
+参考文献：http://blog.csdn.net/yuan882696yan/article/details/26680253
+、在tomcat 安装目录\conf\Catalina\localhost下建立任意文件名xml文件，比如：download.xml,
+内容如下：
+<?xml version="1.0" encoding="UTF-8"?>
+<Context  reloadable="true" docBase="D://download" crossContext="true"></Context>
