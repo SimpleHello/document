@@ -1,0 +1,80 @@
+/* 1 */
+{
+  "_id" : ObjectId("58eb14ffe1382345ce737f1d"),
+  "siteTier" : [{
+      "code" : "33",
+      "name" : "浙江省"
+    }, {
+      "code" : "01",
+      "name" : "杭州市"
+    }, {
+      "code" : "04",
+      "name" : "江干区"
+    }],
+  "state" : "待处理"
+}
+
+/* 2 */
+{
+  "_id" : ObjectId("58eb14ffe1382345ce737f20"),
+  "siteTier" : [{
+      "code" : "33",
+      "name" : "浙江省"
+    }, {
+      "code" : "01",
+      "name" : "杭州市"
+    }, {
+      "code" : "04",
+      "name" : "江干区"
+    }],
+  "state" : "待处理"
+}
+
+/* 3 */
+{
+  "_id" : ObjectId("58eb14ffe1382345ce737f26"),
+  "siteTier" : [{
+      "code" : "33",
+      "name" : "浙江省"
+    }, {
+      "code" : "01",
+      "name" : "杭州市"
+    }, {
+      "code" : "04",
+      "name" : "江干区"
+    }],
+  "state" : "待处理"
+}
+
+/* 4 */
+{
+  "_id" : ObjectId("58f31575e138235c4c081aea"),
+  "siteTier" : [{
+      "code" : "33",
+      "name" : "浙江省"
+    }, {
+      "code" : "01",
+      "name" : "杭州市"
+    }, {
+      "code" : "04",
+      "name" : "江干区"
+    }],
+  "state" : "待处理"
+}
+
+/* 5 */
+{
+  "_id" : ObjectId("58f4532ce138235c4c082208"),
+  "siteTier" : [{
+      "code" : "33",
+      "name" : "浙江省"
+    }, {
+      "code" : "01",
+      "name" : "杭州市"
+    }, {
+      "code" : "04",
+      "name" : "江干区"
+    }],
+  "state" : "待处理"
+}
+

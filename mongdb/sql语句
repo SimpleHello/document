@@ -1,0 +1,8 @@
+--X001----------分组 聚合 函数------------
+-X00101-- 参考数据 sql_json01.json--
+db.yytdbattery_alarm.aggregate(
+    {"$project":{"siteTier": 1,"state":1}},--展现 siteTier,state 字段
+    {"$unwind" :"$siteTier"}, -- 将siteTier字段里面的子集分成多行。一个子集一行
+    {"$match":{"siteTier.name":"浙江省","state":"待处理"}},
+    {"$group":{"_id":"$siteTier.code","count":{"$sum":1}}}
+);
