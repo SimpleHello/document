@@ -1,2 +1,5 @@
-Eclipse  ²å¼ş£º
+Eclipse æ’ä»¶
 https://dl.bintray.com/fabioz/pydev/5.2.0/
+
+å®‰è£…æ’ä»¶
+pip install XXX
