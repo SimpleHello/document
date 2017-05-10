@@ -3,3 +3,5 @@ https://dl.bintray.com/fabioz/pydev/5.2.0/
 
 安装插件
 pip install XXX
+或
+easy_install reportlab
