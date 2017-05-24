@@ -5,3 +5,5 @@ https://dl.bintray.com/fabioz/pydev/5.2.0/
 pip install XXX
 或
 easy_install reportlab
+安装插件-镜像路径
+pip  install --index https://pypi.mirrors.ustc.edu.cn/simple/ XXX
