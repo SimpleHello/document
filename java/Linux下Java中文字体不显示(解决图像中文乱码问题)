@@ -2,3 +2,8 @@
 原因是 centos 上没有 对应字体 哭死
 把 各种 ttf.ttc 主要是 simsun 宋体。simhei 黑体 你用到的
 放在 /usr/java/jdk1.8.0_121/jre/lib/fonts/ 下。。。
+
+查看文件夹大小的命令
+du -sh : 查看当前目录总共占的容量。而不单独列出各子项占用的容量 
+
+du -lh --max-depth=1 : 查看当前目录下一级子文件和子目录占用的磁盘容量。
