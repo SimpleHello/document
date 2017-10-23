@@ -1,0 +1,4 @@
+人工智能：
+Caffe、MxNet、Torch
+精通tensorflow、Caffe、Cuda-convnet、Torch等任一种深度学习开源框架者优先
+
